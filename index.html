@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test 完美旅程 盡在華航 台北-羅馬 2023年3月26日起飛航</title>
+    <meta name="description" content="一分 一秒 時間 由我主宰 完美旅程 盡在華航">
+    <!-- boostrap css -->
+    <link rel="stylesheet" href="/boostrap/bootstrap.min.css">
+    <!-- css -->
+    <link rel="stylesheet" href="custom.css">
+    <!-- swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+</head>
+<body>
+    <div class="header">
+        <a class="logo" href="https://www.china-airlines.com/tw/zh/" target="_blank">
+            <img src="https://zipffdigital.com/even/ciRome/images/cilogo_blue.svg" alt="" width="100%">
+        </a>
+        <div class="nav-pc">
+            <ul>
+                <img src="https://zipffdigital.com/even/ciRome/images/title.svg" alt="">
+                <li>
+                    <a href="#buy">航班表</a>
+                </li>
+                <li>
+                    <a href="https://www.china-airlines.com/au/zh/discover/city-explorer/flights-to-europe" target="_blank">立即出發</a>
+                </li>
+                <li>
+                    <a href="https://www.china-airlines.com/tw/zh/booking/travel-service/rail-and-fly-db" target="_blank">搭鐵路 暢遊歐洲Easy Go</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="mark-bg">
+        <div class="video-wrap">
+            <video autoplay loop muted src="https://zipffdigital.com/even/ciRome/images/RENDER%20IT%202.mp4" width="100%"></video>
+        </div>
+        <div class="title01">
+            <img src="https://zipffdigital.com/even/ciRome/images/title3.svg" alt="" width="100%">
+        </div>
+    </div>
+    <div class="info">
+        <a href="https://www.china-airlines.com/au/zh/discover/city-explorer/flights-to-europe" target="_blank"><div class="btn01"></div></a>
+        <div id="buy">
+            <img src="https://zipffdigital.com/even/ciRome/images/flightschedule.jpg" alt="" width="100%">
+        </div>
+        <div class="title02">
+            <img src="https://zipffdigital.com/even/ciRome/images/maptitle.jpg" alt="" width="100%">
+        </div>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="https://zipffdigital.com/even/ciRome/images/map01.jpg" alt="" width="100%">
+                    <div class="mapinfo">
+                        <h2>德國鐵路 <img src="https://zipffdigital.com/even/ciRome/images/db-logo.svg" alt=""></h2>
+                        <p>使用中華航空與德國鐵路 Deutsche Bahn(DB) 合作服務，您可選擇Rail&Fly經由法蘭克福機場 (Frankfurt Airport)或阿姆斯特丹史基浦機場(Amsterdam Schiphol Airport) 往返至德國境內約5,600個車站點的任一德國鐵路車站；或是經由法蘭克福機場 (Frankfurt Airport)往返至德鐵13個主要車站。
+							更多資訊請上 <a href="https://www.bahn.com/en/offers/Seat-reservation-and-other" target="_blank">德鐵網站</a>查詢
+                        </p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="https://zipffdigital.com/even/ciRome/images/map02.jpg" alt="" width="100%">
+                    <div class="mapinfo">
+                        <h2>奧地利聯邦鐵路  <img src="https://zipffdigital.com/even/ciRome/images/oebb-logo-white.png" alt=""></h2>
+                        <p>使用中華航空與奧地利聯邦鐵路(ÖBB)合作服務，您可經由維也納(Vienna Airport)往返至奧地利、捷克、匈牙利合作車站，享受從容舒適的旅程。
+							更多資訊請上<a href="https://www.oebb.at/en/reiseplanung-services/vor-ihrer-reise/reservierung-sitzplatz" target="_blank">奧鐵網站</a>查詢
+                        </p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="https://zipffdigital.com/even/ciRome/images/map03.jpg" alt="" width="100%">
+                    <div class="mapinfo">
+                        <h2>比利時國鐵  <img src="https://zipffdigital.com/even/ciRome/images/b_logov2x.png" alt=""></h2>
+                        <p>使用中華航空與比利時國家鐵路(SNCB/NS)合作服務，您可經由阿姆斯特丹史基浦機場(Amsterdam Schiphol Airport)往返至比利時車站，享受從容舒適的旅程。
+							更多資訊請上 <a href="https://www.b-europe.com/EN" target="_blank">比利時國鐵網站</a>查詢
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+    <!-- jQuery -->
+    <script src="/jquery.js"></script>
+    <!-- boostrap js -->
+    <script src="/boostrap/bootstrap.min.js"></script>
+    <!-- js -->
+    <script src="/custom.js"></script>
+    <!-- swiper -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            // spaceBetween: 30,
+            effect: "fade",
+            fadeEffect: {
+            crossFade: true,
+            },
+            loop: true,
+            autoplay:{
+                delay: 4000,
+            },
+            pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+            },
+            navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+</body>
+</html>
